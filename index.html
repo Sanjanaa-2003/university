@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" class="top-logo" alt="error" width="200px" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Academics</a></li>
+                    <li><a href="">Admissions</a></li>
+                    <li><a href="">Campus Life</a></li>
+                    <li><a href="">Research</a></li>   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Vellore Institute of Technology</h1>
+            <p>A place to learn, a chance to grow</p>
+            <p class="re-direct">VITEEE 2025 Mock Test – MPCEA | BPCEA </p>
+            <a href="" class="hero-btn">Explore More ➔ </a>
+        </div>
+    </section>
+    <br><br>
+    <!-- Course -->
+     <section class="classification">
+        <h1 class="vit-wrap">Vellore Institute of Technology</h1>
+        <br>
+        <p><i>A place to learn, a chance to grow</i></p>
+
+        <div class="row">
+            <div class="col">
+                <img src="images/ek.png" alt="error" width="80px">
+                <h3 class="rank-card">RANKING AND RECOGNITION</h3>
+                <br>
+                <ul>
+                    <li>VIT National & Global Rankings</li>
+                    <li>ARIIA Ranking Govt. of India.</li>
+                    <li>VIT 142nd Best Institution of the world in the Engineering and Technology</li>
+                    <li>VIT is one among the top 2 in india and within 501-600 universities of the world as per Shanghai ARWU (Academic Ranking of World Universities) 2024</li>
+                </ul>
+    
+            </div>
+
+            <div class="col">
+                <img src="images/dho.png" alt="error" width="70px">
+                <h3 class="placement-card">PLACEMENTS</h3>
+                <br>
+                <ul>
+                    
+                    <li>2862 Dream Offers, 2807 Super Dream Offers</li>
+                    <li>6380 Regular Offers</li>
+                    <li>530 Marquee Offers</li>
+                    <li>4051 Industry Internships</li>
+                    <li>National Record By TCS: 4004 Offers</li>
+                    <li>12579 Over all Offers</li>
+                    <li>Limca Book of Records for the 12th time for unbeatable placement records.</li>
+                    <li>Highest CTC: 1 Crore</li>
+                    <li>632 Number of Companies</li>
+                                </ul>
+            </div>
+
+            <div class="col">
+                <img src="images/theen.png" alt="error" width="75px">
+                <h3 class="interrel-card" >INTERNATIONAL RELATIONS</h3>
+                <br>
+                <p class="ul-li">VIT has strong international presence across the world and partnerships with over 500 foreign universities. VIT provides a platform for students and faculty to connect with international experts and collaborate on projects involving cutting-edge technologies.  VIT provides options to study part of their academic program in VIT and continue the remaining tenure in a partner foreign university.</p>
+            </div>
+        </div>
+
+     </section>
+
+
+    <!-- Javascript for menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
